@@ -16,11 +16,11 @@
 ## 2. Perangkat yang Digunakan
 | Perangkat | Keterangan |
 |---|---|
-| Laptop/PC | _(isi spesifikasi / OS)_ |
-| Web browser | _(mis. Chrome versi ...)_ |
+| Laptop/PC | _(LAPTOP-QBSBSSM4)_ |
+| Web browser | _(Chrome)_ |
 | Editor | Visual Studio Code |
 | PHP | _(versi, mis. 8.2)_ |
-| Server lokal | XAMPP / Laragon _(pilih salah satu)_ |
+| Server lokal | XAMPP |
 
 ## 3. Cara Menjalankan Server Lokal
 1. Instal XAMPP atau Laragon, lalu jalankan layanan **Apache** (dan PHP).
