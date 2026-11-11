@@ -3,7 +3,7 @@
 **Mata Kuliah:** Pemrograman Web  
 **Nama:** _(Zeline Zahirah Zahrah Yasin)_  
 **NIM:** _(312510033)_  
-**Kelas:** _(I231A)_
+**Kelas:** _(I251A)_
 
 ## 1. Tujuan Praktikum
 - Memahami perbedaan pemrosesan client-side dan server-side.
@@ -25,9 +25,8 @@
 ## 3. Cara Menjalankan Server Lokal
 1. Instal XAMPP atau Laragon, lalu jalankan layanan **Apache** (dan PHP).
 2. Salin folder proyek ini ke direktori web server:
-   - XAMPP: `C:\xampp\htdocs\lab7_php\`
-   - Laragon: `C:\laragon\www\lab7_php\`
-3. Buka browser dan akses `http://localhost/lab7_php/`.
+   - XAMPP: `C:\xampp\htdocs\Lab7Web_PHP\`
+3. Buka browser dan akses `http://localhost/Lab7Web_PHP/`.
 4. **Jangan** membuka file PHP dengan klik ganda (`file://`), karena kode PHP tidak akan dieksekusi.
 
 Alternatif tanpa XAMPP (butuh PHP terpasang): jalankan `php -S localhost:8000` di folder proyek, lalu buka `http://localhost:8000/`.
@@ -67,23 +66,20 @@ Lab7Web_PHP/
 | Mini Project | `miniproject.php` | Validasi nama, NIM, prodi, semester (1–14), dan email; ringkasan tampil jika valid. |
 | Eksperimen | `eksperimen.php` | Rata-rata nilai, pencarian nama via GET, format Rupiah. |
 
-_(Tambahkan catatan temuan/kendala Anda di sini.)_
-
 ## 6. Screenshot
-Simpan di folder `screenshots/`, lalu tautkan di bawah.
-
-| Bagian | Screenshot |
-|---|---|
-| Latihan 1 | `![Latihan 1](screenshots/latihan1.png)` |
-| Latihan 2 | `![Latihan 2](screenshots/latihan2.png)` |
-| Latihan 3 | `![Latihan 3](screenshots/latihan3.png)` |
-| Latihan 4 | `![Latihan 4](screenshots/latihan4.png)` |
-| Latihan 5 | `![Latihan 5](screenshots/latihan5.png)` |
-| Latihan 6 | `![Latihan 6](screenshots/latihan6.png)` |
-| Latihan 7 | `![Latihan 7](screenshots/latihan7.png)` |
-| Mini Project (valid) | `![MP valid](screenshots/mp_valid.png)` |
-| Mini Project (error) | `![MP error](screenshots/mp_error.png)` |
-| Eksperimen | `![Eksperimen](screenshots/eksperimen.png)` |
+<img width="959" height="506" alt="Screenshot 2026-11-11 034755" src="https://github.com/user-attachments/assets/7b3f929b-853c-43c8-939e-8dc032fd9618" />
+<img width="957" height="504" alt="Screenshot 2026-11-11 034810" src="https://github.com/user-attachments/assets/d6e9c839-478b-43b2-b1f1-a73cefcf17fa" />
+<img width="959" height="503" alt="Screenshot 2026-11-11 034829" src="https://github.com/user-attachments/assets/3899b320-7ff5-4114-a00c-6b0143dd7f9f" />
+<img width="959" height="503" alt="Screenshot 2026-11-11 034843" src="https://github.com/user-attachments/assets/32f86b0e-52c2-4ed4-94fa-6f3c20a7b3ca" />
+<img width="959" height="503" alt="Screenshot 2026-11-11 034859" src="https://github.com/user-attachments/assets/3349eb23-3c8f-4783-aa24-469f10f0c18f" />
+<img width="959" height="501" alt="Screenshot 2026-11-11 034914" src="https://github.com/user-attachments/assets/43304091-a733-4263-91ec-b425bb47c2ab" />
+<img width="958" height="501" alt="Screenshot 2026-11-11 034955" src="https://github.com/user-attachments/assets/761d07bc-6370-4267-b05b-471cb0e98eef" />
+<img width="959" height="504" alt="Screenshot 2026-11-11 035044" src="https://github.com/user-attachments/assets/86be248a-b709-45d2-aef5-43d02a4932e9" />
+<img width="959" height="503" alt="Screenshot 2026-11-11 035105" src="https://github.com/user-attachments/assets/02fd38c2-b99f-4ab5-9801-cc0cf71bbb44" />
+<img width="958" height="503" alt="Screenshot 2026-11-11 035125" src="https://github.com/user-attachments/assets/2cf293a2-0e95-4e51-9b6a-2548384f9d16" />
+<img width="959" height="502" alt="Screenshot 2026-11-11 035137" src="https://github.com/user-attachments/assets/5ea031f9-2400-4512-832f-829db3cb6f8a" />
+<img width="959" height="504" alt="Screenshot 2026-11-11 035151" src="https://github.com/user-attachments/assets/4479ab25-fe56-434e-9656-0b081f0d8e79" />
+<img width="959" height="505" alt="Screenshot 2026-11-11 035204" src="https://github.com/user-attachments/assets/9fef9182-1e99-4bbd-8ea7-a1cc4416a967" />
 
 ## 7. Kasus Uji Input (Mini Project)
 ### Input valid
@@ -115,14 +111,3 @@ Simpan di folder `screenshots/`, lalu tautkan di bawah.
 5. **Validasi di server:** Validasi di browser (`required`, dll.) bisa dilewati atau dimanipulasi. Server tidak boleh memercayai input pengguna, sehingga pemeriksaan di server wajib demi keamanan dan integritas data.
 6. **Fungsi `htmlspecialchars()`:** Mengubah karakter khusus HTML (`<`, `>`, `&`, `"`, `'`) menjadi entitas, sehingga input pengguna tampil sebagai teks biasa dan mengurangi risiko injeksi HTML/script (XSS).
 7. **Manfaat function:** Kode dapat dipakai ulang, lebih rapi dan mudah dibaca, mudah diuji dan dirawat (perubahan cukup di satu tempat), serta mengurangi duplikasi.
-
-## 10. Pengumpulan
-```bash
-git init
-git add .
-git commit -m "Praktikum 7: Pemrograman Server-Side dengan PHP"
-git branch -M main
-git remote add origin <URL-REPOSITORY>
-git push -u origin main
-```
-Kumpulkan URL repository sesuai arahan dosen.
